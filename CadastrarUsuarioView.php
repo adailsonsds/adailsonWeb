@@ -21,12 +21,12 @@
         </li>
 
       </ul>
-        <a href="LoginUsuario"class="btn btn-outline-success" type="submit">Login</a>
-        <a href="CadastrarUsuario"class="btn btn-outline-success" type="submit">Cadastrar</a>
+        <a href="LoginUsuarioView.php"class="btn btn-outline-success" type="submit">Login</a>
+        <a href="CadastrarUsuarioView.php"class="btn btn-outline-success disabled" type="submit">Cadastrar</a>
 
     </div>
   </nav>
-	<div class="container col-md-6 row" style="margin-top:70px;">
+	<div class="container col-md-6 row" style="margin-top:60px;">
 		<div class="col-md-2"></div>
 		<form class="col-md-8" method="post" action="CadastrarUsuarioModel.php">
 			<div class="form-group">
